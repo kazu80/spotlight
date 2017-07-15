@@ -1,28 +1,17 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
-  </div>
+    <div class="main">
+        Hello Spotlight!
+    </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
-
-export default {
-  name: 'app',
-  components: {
-    Hello
-  }
-}
+    export default {}
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss" scoped="true">
+    .main {
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+    }
 </style>
