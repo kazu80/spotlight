@@ -18,6 +18,6 @@
     .main {
         width            : 100%;
         height           : 100%;
-        background-color : #333333;
+        background-color : #000;
     }
 </style>
