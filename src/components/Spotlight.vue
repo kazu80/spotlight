@@ -22,7 +22,7 @@
             top : -30px;
             width: 5vw;
             height: 200vh;
-            background: linear-gradient(to bottom, rgba(255,255,255,1) 10%,rgba(255,255,255, .1) 100%);
+            background: linear-gradient(to bottom, rgba(200,0,0,1) 10%,rgba(200,0,0, .1) 100%);
             transform-origin:center top;
             transform: rotate(0deg);
             animation-name: spotlight;
@@ -33,6 +33,7 @@
 
         .spotlight:last-child {
             right: 0;
+            background: linear-gradient(to bottom, rgba(0,0,230,1) 10%,rgba(0,0,230, .1) 100%);
             animation-name: spotlight2;
         }
 
